@@ -8,9 +8,9 @@ if (-not (Get-Module -ListAvailable -Name "AWS.Tools.Common")) {
 Import-Module AWS.Tools.Common
 
 # Credentials
-$accesskey = "mPm8NKztuEeXqh4xblsW"
-$secretkey = "ZmkgkylMjYgKPm0OVarCmIItxoUhqxonG8zhclM7"
-$endpointurl = "https://minio.spencerleb.duckdns.org"
+$accesskey = "InsertAccessKey"
+$secretkey = "InsertSecretKey"
+$endpointurl = "Insert S3 API Endpoint URL example s3.wasabisys.com"
 
 # Set Credentials
 Set-AWSCredential -AccessKey $accesskey -SecretKey $secretkey -StoreAs default
