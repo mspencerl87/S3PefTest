@@ -57,3 +57,8 @@ $transferSpeed = [math]::Round(($dataTransferred / $uploadDuration), 2)
 # Print the report
 Write-Host "Data Transferred: $dataTransferred MB"
 Write-Host "Transfer Speed: $transferSpeed MB/s"
+
+# Cleanup - Remove generated files and the directory
+Remove-Item -Path $localPath -Recurse -Force
+Write-Host "Locally generated files located at $localPath have been removed"
+Write-Host "Please remember to delete files inside $bucketName and delete the bucket $bucketName"
