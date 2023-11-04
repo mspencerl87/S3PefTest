@@ -1,3 +1,5 @@
+#Author Spencer LeBlanc
+
 # Check if AWS.Tools.Common module is installed
 if (-not (Get-Module -ListAvailable -Name "AWS.Tools.Common")) {
     Write-Host "AWS.Tools.Common module not found. Installing..."
