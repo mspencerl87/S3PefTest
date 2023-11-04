@@ -33,7 +33,7 @@ $localPath = "C:\Temp\GeneratedFiles"
 New-Item -Path $localPath -ItemType Directory -Force
 
 # Generate 5GB worth of 1MiB compressed files
-$numberOfFiles = 1000 # 5GB in 1MiB files
+$numberOfFiles = 5000 # 5GB in 1MiB files
 $randomData = [System.Security.Cryptography.RandomNumberGenerator]::Create()
 $fileSize = 1MB
 
