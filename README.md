@@ -14,3 +14,6 @@ $fileSize = 1MB
 
 By default we are generating 5GB worth of 1MiB files, and uploading them to our S3 of choice.
 Then we calculate the time taken, and throughput in MB/s
+
+You can reach out to me via blog.filegarden.net / mspencerl87@gmail.com
+If needed
